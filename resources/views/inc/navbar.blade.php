@@ -25,6 +25,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">PRICING</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">CONTACT</a>
+                </li>
             </ul>
         </div>
     </div>
