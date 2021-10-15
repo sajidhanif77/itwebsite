@@ -15,6 +15,9 @@
             {{Form::label('message', 'Message')}}
             {{Form::textarea('message', '', ['class' => 'form-control', 'placeholder' => 'Enter Message'])}}
         </div>
+        <div>
+            {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
+        </div>
     {!! Form::close() !!}
 @endsection
 
