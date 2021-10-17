@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/vendorpartnership', function () {
+    return view('vendorpartnership');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });
