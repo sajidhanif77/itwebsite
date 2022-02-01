@@ -1,0 +1,91 @@
+/* * is universal selector, here we do a basic reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*html{
+    font-size: 100%;
+}*/
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-height: 16px;
+    line-height: 1.7;
+    color: #212529;
+    /*padding: 30px;*/
+}
+
+.header{
+    height: 60vh;
+    background-image: linear-gradient(to right,
+        rgba(183, 186, 189, 0.2),
+        rgba(35, 24, 52, 0.2)),
+        url("/hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.text-box{
+    position: absolute;
+    top: 20%;
+    left: 51%;
+    /*background-color: #2d995b;*/
+    transform: translate(0,50%);
+}
+
+.heading-primary{
+    /*color: #0b224a;*/
+    /*text-transform: uppercase;*/
+    color: #fff;
+}
+
+.heading-primary-main{
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 400;
+    /*font-size: calc(30px + (40 - 30) * ((100vw - 500px) / (1400 - 500)));*/
+    /*letter-spacing: 10px;*/
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 400;
+    /*font-size: calc(13px + (18 - 13) * ((100vw - 500px) / (1400 - 500)));*/
+/*letter-spacing: 5px;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
+    */
+
+}
+.heading-primary-sub2{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /*font-size: calc(13px + (18 - 13) * ((100vw - 500px) / (1400 - 500)));*/
+    /*letter-spacing: 5px;
+        animation-name: moveInLeft;
+        animation-duration: 5s;
+        */
+
+}
+
+@keyframes  moveInLeft{
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80% {
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

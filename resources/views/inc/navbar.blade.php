@@ -1,60 +1,57 @@
-<!--==========================
-    Top Bar
-  ============================-->
-<section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-        <div class="contact-info float-left">
-            <i class="fa fa-envelope"></i><a href="mailto:sales@infiniti-tech.com">sales@infiniti-tech.com</a>
-            <i class="fa fa-mobile"></i>
-            +447721881824
-            <i class="fa fa-mobile"></i>
-            +33652304096
-        </div>
-        <div class="social-links float-right">
-            <a href="/techregistration" ><i class="fa fa-user"></i>&nbsp
-                Join as Independent Contractor</a>
-        </div>
+<nav class="navbar navbar-expand-sm " style="background-color: #0b224a;">
+    <div class="container">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="mailto:sales@infiniti-tech.com">sales@infiniti-tech.com</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://web.whatsapp.com/send?phone=33652304096"><span>+447721881824</span><br><span>+33652304096</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/independentcontractor">Independent Contractor Partnership</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/vendorpartnership">Vendor Partnership</a>
+            </li>
+        </ul>
     </div>
-</section>
+</nav>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
         <a class="navbar-brand" href="/">
-{{--            <img src="infiniti-tech-logo.png" alt="INFINITI TECH" height="36">--}}
-            <img src="infiniti-tech-logo.png" alt="INFINITI TECH" height="76">
+            <img src="infiniti-tech-logo-3.svg" alt="INFINITI TECH" height="70">
         </a>
+{{--    <div class="container-fluid">--}}
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-{{--                <li class="nav-item">--}}
-{{--                    <a class="nav-link active" aria-current="page" href="/">HOME</a>--}}
-{{--                </li>--}}
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">ABOUT</a>
-                </li>
+        <div class="collapse navbar-collapse mr-5" id="navbarNavDropdown" >
+{{--            <ul class="navbar-nav" style="margin-left: 380px">--}}
+                <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        SUPPORT
+                        SERVICES
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">NETWORK SUPPORT</a></li>
-                        <li><a class="dropdown-item" href="#">SERVER SUPPORT</a></li>
-                        <li><a class="dropdown-item" href="#">DESKTOP SUPPORT</a></li>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                        <li><a class="dropdown-item" href="/networksupport">NETWORK SUPPORT</a></li>
+                        <li><a class="dropdown-item" href="/serversupport">SERVER SUPPORT</a></li>
+                        <li><a class="dropdown-item" href="/desktopsupport">DESKTOP SUPPORT</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">PRICING</a>
+                    <a class="nav-link" href="/pricing">PRICING</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/vendorpartnership">VENDOR PARTNERSHIP</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact">CONTACT</a>
+                    <a class="nav-link" href="/about">ABOUT</a>
                 </li>
             </ul>
         </div>
-    </div>
+{{--    </div>--}}
+        <div>
 </nav>
+
+
+
+
+

@@ -1,10 +1,19 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+/*@import url(https://fonts.googleapis.com/css?family=Rubik);*/
 @charset "UTF-8";
 #footer {
   margin-top: 30px;
   padding: 20px;
   color: #fff;
-  background: #333;
+  background: #b1b9c6;
+}
+
+.counter-section{
+    margin: 10% auto;
+    color: #0b224a;
+}
+
+.icon-box{
+    border: 1px solid #b3d7f5;
 }
 
 /*!
@@ -40,7 +49,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: "Rubik", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -63,7 +72,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
@@ -162,12 +171,14 @@ sup {
 }
 
 a {
-  color: #3490dc;
+  color: #b6bdc9;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #1d68a7;
+    /*changed by sajid*/
+  /*color: #1d68a7;*/
+    color: #ffffff;
   text-decoration: underline;
 }
 
@@ -3892,6 +3903,8 @@ input[type=button].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+    /*added by sajid*/
+    color: #b6bdc9;
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
@@ -3922,6 +3935,7 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
+    /*color: #b6bdc9;*/
   background-color: #f8fafc;
   border-color: #dee2e6 #dee2e6 #f8fafc;
 }
@@ -3967,6 +3981,7 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -5592,7 +5607,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -5694,7 +5709,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;

@@ -1,24 +1,26 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Vendor Partnership</h1>
-    <p>We believe in a collaborative approach, that is why we have a vendor partnership program to get other vendors on
-        board so that we can use their services in regions where we have no or limited presence. Same way we will
-        appreciate helping you get the services delivered where we have skilled Engineers and technicians already
-        providing services as Field Engineers.
+    <h2>Join Our Global Network of Independent Contractors</h2>
+    <p>Please fill out this form to get registered in our databse of Global Independent Contractors. We will get in
+        touch with you for any suitable IT opportunity in your area based on your skill set.
     </p>
     {!! Form::open(['url' => 'contact/submit']) !!}
     <div class="form-group">
-        {{Form::label('companyname', 'Company Name')}}
-        {{Form::text('companyname', '',['class' => 'form-control', 'placeholder' => 'Company Name'])}}
+        {{Form::label('firstname', 'First Name')}}
+        {{Form::text('firstname', '',['class' => 'form-control', 'placeholder' => 'First Name'])}}
     </div>
     <div class="form-group">
-        {{Form::label('companyemail', 'Company E-Mail')}}
-        {{Form::text('companyemail', '', ['class' => 'form-control', 'placeholder' => 'Company Email'])}}
+        {{Form::label('lastname', 'Last Name')}}
+        {{Form::text('lastname', '',['class' => 'form-control', 'placeholder' => 'Last Name'])}}
     </div>
     <div class="form-group">
-        {{Form::label('companywebsite', 'Company Website')}}
-        {{Form::text('companywebsite', '', ['class' => 'form-control', 'placeholder' => 'Company Website'])}}
+        {{Form::label('mobile', 'Mobile')}}
+        {{Form::text('mobile', '', ['class' => 'form-control', 'placeholder' => 'Mobile'])}}
+    </div>
+    <div class="form-group">
+        {{Form::label('email', 'Email')}}
+        {{Form::text('email', '', ['class' => 'form-control', 'placeholder' => 'Email'])}}
     </div>
     <div class="form-group">
         {{Form::label('message', 'Message')}}

@@ -13,12 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/vendorpartnership', function () {
     return view('vendorpartnership');
+});
+
+Route::get('/independentcontractor', function () {
+    return view('independentcontractor');
+});
+
+Route::get('/networksupport', 'ServicesController@networksupport')->name('networksupport');
+
+Route::get('/serversupport', 'ServicesController@serversupport')->name('serversupport');
+
+Route::get('/desktopsupport', 'ServicesController@desktopsupport')->name('desktopsupport');
+
+Route::get('/pricing', function () {
+    return view('pricing');
 });
 
 Route::get('/contact', function () {
